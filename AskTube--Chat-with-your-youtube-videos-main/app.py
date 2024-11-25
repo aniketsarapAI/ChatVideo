@@ -4,7 +4,7 @@ from model import Model
 from streamlit_chat import message
 
 st.set_page_config(layout="wide")
-st.title("Ask Tube - Chat with your YT videos")
+st.title("Chat with your YT videos")
 
 
 def infer(bot, prompt):
